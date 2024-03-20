@@ -1,3 +1,11 @@
 function insertionSortReverse(array) {
-    return array;
+        for(var i = arr.length - 1; i >= 0; i--) {
+          var val = arr[i];
+          var j;
+          for(j = i; j < array.length && arr[j+1] < val; j++) {
+            arr[j] = arr[j+1];
+          }
+          arr[j] = val;
+        }
+        return arr;
 }
