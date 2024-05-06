@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/Bi-S25fM)
 # Reverse Insertion Sort
 
 Consider the code for insertion sort we covered in class:
@@ -36,3 +37,13 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+Lets consider a time complexity being $\Theta{(n)}$ this means that the given is array is sorted already and the outer loop would go through every element not swaping anything making this the best case.
+
+if we consider a time complexity being $\Theta{(n^2)}$ this means that the array is reverse sorted which requires the outer loop to go through n elements and swapping them n times making this the worst case.
+
+And finally, when it comes to average case time complexity, we will be assuming the given array is roughly sorted half way. This would require the outer loop go through n elements swapping them at the most n/2 times. So the time complexity would be $\Theta{(n^2/2)}$. Asymtotically we can neglect the constants as they do not effect the runtime. So the average time complexity of the insertion sort is also $\Theta{(n^2)}$
+
+Reference: 
+Lecture slides
+Geeks for geeks
