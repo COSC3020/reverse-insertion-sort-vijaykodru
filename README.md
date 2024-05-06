@@ -44,3 +44,6 @@ if we consider a time complexity being $\Theta{(n^2)}$ this means that the array
 
 And finally, when it comes to average case time complexity, we will be assuming the given array is roughly sorted half way. This would require the outer loop go through n elements swapping them at the most n/2 times. So the time complexity would be $\Theta{(n^2/2)}$. Asymtotically we can neglect the constants as they do not effect the runtime. So the average time complexity of the insertion sort is also $\Theta{(n^2)}$
 
+Reference: 
+Lecture slides
+Geeks for geeks
